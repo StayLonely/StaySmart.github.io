@@ -1,0 +1,77 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: white;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+body, html {
+    font-family: raleway_m, sans-serif;
+    background: url(/ready-html/images/back1.jpg);
+	background-size: cover;
+}
+
+.banner {
+	width: 100%;
+	height: auto;
+	animation: ani 2s forwards;
+}
+
+.navbar {
+	width: 85%;
+	margin: auto;
+	padding: 40px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.navbar ul li {
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px;
+}
+
+.navbar ul li a{
+	font-weight: 600;
+	font-size: 4vh;
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	transition: 0.2s ease;
+}
+
+.navbar ul li a:hover{
+	color: #ddff00;
+}
+
+.facts-NAME {
+	color: #ddff00;
+	text-align: center;
+	font-size: 7vh;
+	padding-top: 10vh;
+	text-shadow: 0 0 6px #ddff00;
+}
+
+.facts {
+	text-align: justify;
+	padding-top: 10vh;
+	padding-left: 30vh;
+	padding-right: 30vh;
+    opacity: 0.9;
+	font-size: 2vh;
+	font-weight: 600;
+	animation: ani 2s forwards;
+}
+
+h1 {
+	transition: 0.2s;
+}
+
+h1:hover {
+	transform: scale(1.1);
+	color: #ddff00;
+}
+
+

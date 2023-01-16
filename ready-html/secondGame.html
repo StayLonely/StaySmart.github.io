@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="libs/swiper/swiper-bundle.min.css">
+        <link rel="stylesheet" href="css/second.css">
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+        <title>💦💦💦SECOND💦💦💦</title>
+    </head>
+
+    <header>
+        <div class='banner'>
+            <div class='navbar'>
+                <ul>
+                    <li><a class='nav-item' href="home.html">ГЛАВНАЯ</a></li>
+                    <li><a class='nav-item' href="tips.html">СОВЕТЫ</a></li>
+                    <li><a class='nav-item' href="games.html">ИГРЫ</a></li>
+                    <li><a class='nav-item' href="facts.html">ИНТЕРЕСНЫЕ ФАКТЫ</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+ <body>
+    <main>
+        <h1 class="color-test">Выбор цвета</h1>
+        <p class="get-present">Соберите 25 очков для подарка</p>
+		<h3 class="get-present-count">Собрано <b> 0 </b>из 25</h3>
+        <p class="color-counter hide">Количество очков <b id="color-count">0</b></p>
+        
+        <p class="color-time hide" >Время <b class="color-timer" ></b></p>
+        <h2 class="record hide">Рекорд: <span class="record-value"></span></h2>
+        <h2 class="last-try hide">Последние попытки:  
+            <ul class="last-try-ul">
+
+            </ul>
+        </h2>
+        <div class="color-game">
+            <div class="color-start"> <b>Начать </b></div>
+            <h2 class='colorname' style="text-align: center; font-size: 50px;"></h2>
+            <div class="color-game-colors hide" >
+                
+            <p class="color" >Цвет</p>
+            <p class="color" >Цвет</p>
+            <p class="color" >Цвет</p>
+            </div>
+        </div>
+        <template id="last-try-template">
+            <li class="last-try-count"></li>
+        </template>
+        
+    </main>
+
+    <script src="js/colors.js"></script>
+ </body>
+</html>

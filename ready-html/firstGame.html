@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/first.css">
+		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+		<title>💦💦💦FIRST💦💦💦</title>
+	</head>
+ 
+	<header>
+		<div class='banner'>
+			<div class='navbar'>
+				<ul>
+					<li><a class='nav-item' href="home.html">ГЛАВНАЯ</a></li>
+					<li><a class='nav-item' href="tips.html">СОВЕТЫ</a></li>
+					<li><a class='nav-item' href="games.html">ИГРЫ</a></li>
+					<li><a class='nav-item' href="facts.html">ИНТЕРЕСНЫЕ ФАКТЫ</a></li>
+				</ul>
+			</div>
+		</div>
+	</header>
+
+<body>
+	
+	<div class="cursor"></div>
+	<div class="cursor2"></div>
+
+	<div class="background">
+		<div class="cube"></div>
+		<div class="cube"></div>
+		<div class="cube"></div>
+		<div class="cube"></div>
+	   <div class="cube"></div>
+	 </div>
+
+	 <main>
+        <h1 class="reaction-test">Развитие реакции</h1>
+		<p class="get-present hide">Соберите 50 очков для подарка</p>
+		<h3 class="get-present-count hide">Собрано <b> 0 </b>из 50</h3>
+        <p class="reaction-counter hide">Количество очков: <b id="reaction-count">0</b></p>
+        <p class="reaction-time hide" >Время: <b class="reaction-timer" ></b></p>
+        <h2 class="record hide">Рекорд: <span class="record-value"></span></h2>
+        <h2 class="last-try hide">Последние попытки:  
+            <ul class="last-try-ul">
+
+            </ul>
+        </h2>
+        <div class="reaction-game">
+            <div class="reaction-start"> <b>Начать </b></div>
+            <div id="reaction-circle" class="hide">
+                
+            </div>
+        </div>
+        <template id="last-try-template">
+            <li class="last-try-count"></li>
+        </template>
+    </main>
+
+	<script src="js/first.js"></script>
+</body>
+</html>

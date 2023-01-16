@@ -1,0 +1,50 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+ <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Пример веб-страницы</title>
+    <link rel="stylesheet" href="css/fourth.css">
+ </head>
+
+<header>
+    <div class='banner'>
+        <div class='navbar'>
+            <ul>
+                <li><a class='nav-item' href="home.html">ГЛАВНАЯ</a></li>
+                <li><a class='nav-item' href="tips.html">СОВЕТЫ</a></li>
+                <li><a class='nav-item' href="games.html">ИГРЫ</a></li>
+                <li><a class='nav-item' href="facts.html">ИНТЕРЕСНЫЕ ФАКТЫ</a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+
+ <body>
+    <main>
+        <h1 class="word-test">По словам</h1>
+        <p class="get-present">Соберите 50 очков для подарка</p>
+		<h3 class="get-present-count">Собрано <b> 0 </b>из 50</h3>
+        <p class="word-counter">Количество очков <b id="word-count">0</b></p>
+        <p class="word-time hide" >Время <b class="word-timer" ></b></p>
+        <h2 class="record hide">Рекорд: <span class="record-value"></span></h2>
+        <h2 class="last-try hide">Последние попытки  
+            <ul class="last-try-ul">
+
+            </ul>
+        </h2>
+        <div class="start-button">НАЧАТЬ</div>
+        <div class="word-game hide">
+           <h2 class="key-word"></h2>
+           <input type="text" class="userInput" autofocus>
+    
+        </div>
+        <template id="last-try-template">
+            <li class="last-try-count"></li>
+        </template>
+        
+    </main>
+
+    <script src="js/fourth.js"></script>
+ </body>
+</html>

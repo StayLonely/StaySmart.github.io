@@ -1,0 +1,104 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.banner {
+	width: 100%;
+	height: auto;
+	animation: ani 2s forwards;
+}
+
+.navbar {
+	width: 85%;
+	margin: auto;
+	padding: 40px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.navbar ul li {
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px;
+}
+
+.navbar ul li a{
+	font-weight: 600;
+	font-size: 4vh;
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	transition: 0.2s ease;
+}
+
+.navbar ul li a:hover{
+	color: #ddff00;
+}
+
+@font-face {
+	font-family: raleway_m;
+	src: url(../fonts/raleway-v22-cyrillic-300.woff2);
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: raleway_m;
+	src: url(../fonts/raleway-v22-cyrillic-900.woff2);
+	font-weight: 900;
+}
+
+@keyframes ani {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+body, html {
+    font-family: raleway_m, sans-serif;
+    background: url(/ready-html/images/layer-base.png);
+	background-position: center;
+	background-size: cover;
+}
+
+.tips{
+    padding: 4vh;
+    opacity: 0.9;
+    text-align: center;
+	font-size: 10vh;
+	font-weight: 600;
+	color: #ddff00;
+	animation: ani 2s forwards;
+	text-shadow: 0 0 50px #000000;
+}
+.tips-block{
+    padding: 11vh;
+    opacity: 0.9;
+    text-align: center;
+	font-size: 5vh;
+	font-weight: 600;
+	color: #ecff72;
+    box-shadow: 3px 3px 20px 1px rgba(0, 0, 0, 1);
+	animation: ani 2s forwards;
+
+}
+.tips-box{
+    text-align: center;
+	animation: ani 2s forwards;
+}
+.memory-tips, .reaction-tips, .work-tips {
+    font-size: 4vh;
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 1%;
+    font-weight: 600;
+    color: white;
+    border: none;
+    box-shadow: 3px 3px 20px 1px rgba(0, 0, 0, 0.2);
+	transition: 0.1s; /* Время эффекта */
+}   
+
+.memory-tips:hover, .reaction-tips:hover, .work-tips:hover {
+	transform: scale(1.1); /* Увеличиваем масштаб */
+}
